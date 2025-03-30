@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/Oleg4260/LeafLitterNerfed"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/leaf-litter-nerfed/icon.png",
 	"environment": "*",
 	"entrypoints": {
