@@ -3,13 +3,12 @@
 	"id": "leaf-litter-nerfed",
 	"version": "${version}",
 	"name": "Leaf litter nerfed",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A small mod to reduce burning time of leaf litter in furnaces.",
 	"authors": [
-		"Me!"
+		"Oleg4260"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Oleg4260/LeafLitterNerfed"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/leaf-litter-nerfed/icon.png",
@@ -17,18 +16,9 @@
 	"entrypoints": {
 		"main": [
 			"com.oleg4260.leaftlitternerf.LeafLitterNerfed"
-		],
-		"client": [
-			"com.oleg4260.leaftlitternerf.LeafLitterNerfedClient"
 		]
 	},
-	"mixins": [
-		"leaf-litter-nerfed.mixins.json",
-		{
-			"config": "leaf-litter-nerfed.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.5",
