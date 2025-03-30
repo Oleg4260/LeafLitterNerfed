@@ -3,14 +3,14 @@
 	"id": "leaf-litter-nerfed",
 	"version": "${version}",
 	"name": "Leaf litter nerfed",
-	"description": "A small mod to reduce burning time of leaf litter in furnaces.",
+	"description": "A small mod to reduce burn time of leaf litter in furnaces.",
 	"authors": [
 		"Oleg4260"
 	],
 	"contact": {
 		"sources": "https://github.com/Oleg4260/LeafLitterNerfed"
 	},
-	"license": "MIT License",
+	"license": "MIT",
 	"icon": "assets/leaf-litter-nerfed/icon.png",
 	"environment": "*",
 	"entrypoints": {
